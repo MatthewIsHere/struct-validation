@@ -1,0 +1,25 @@
+[package]
+name = "struct-validation"
+version = "0.1.0"
+authors = ["Matthew Lyon <matthew@lyon.systems>"]
+edition = "2021"
+description = "A simple trait and derive to validate structs and return a list of errors."
+repository = "https://github.com/MatthewIsHere/struct-validation"
+license = "MIT"
+keywords = ["validation", "derive", "struct"]
+categories = ["proc-macro", "development-tools"]
+
+[lib]
+name = "struct_validation"
+path = "src/lib.rs"
+
+[dependencies]
+struct-validation-core = { path = "./struct-validation-core" }
+struct-validation-derive = { path = "./struct-validation-derive" }
+
+[workspace]
+
+members = [
+    "struct-validation-core",
+    "struct-validation-derive"
+]
