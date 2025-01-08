@@ -14,8 +14,8 @@ name = "struct_validation"
 path = "src/lib.rs"
 
 [dependencies]
-struct-validation-core = { path = "./struct-validation-core" }
-struct-validation-derive = { path = "./struct-validation-derive" }
+struct-validation-core = { path = "./struct-validation-core", version = "0.1.0" }
+struct-validation-derive = { path = "./struct-validation-derive", version = "0.1.0" }
 
 [workspace]
 
