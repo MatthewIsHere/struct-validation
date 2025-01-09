@@ -22,7 +22,7 @@ dependencies = [
 
 [[package]]
 name = "struct-validation"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "struct-validation-core",
  "struct-validation-derive",
@@ -30,11 +30,11 @@ dependencies = [
 
 [[package]]
 name = "struct-validation-core"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "struct-validation-derive"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "proc-macro2",
  "quote",

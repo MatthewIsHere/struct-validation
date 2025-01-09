@@ -1,6 +1,6 @@
 [package]
 name = "struct-validation-derive"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Matthew Lyon <matthew@lyon.systems>"]
 edition = "2021"
 description = "Procedural macros for deriving validation implementations on structs."
