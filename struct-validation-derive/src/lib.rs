@@ -124,7 +124,7 @@ pub fn derive_validate(input: TokenStream) -> TokenStream {
     // Generate the final implementation of Validate for the struct
     let expanded = quote! {
         impl Validate for #struct_name {
-            fn validate(&self) -> Vec<ValidationError> {
+            fn validate(&self) -> Vec<struct_validation_core::ValidationError> {
                 #stream.collect()
             }
         }
