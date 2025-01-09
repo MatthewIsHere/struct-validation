@@ -1,6 +1,6 @@
 [package]
 name = "struct-validation-derive"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Matthew Lyon <matthew@lyon.systems>"]
 edition = "2021"
 description = "Procedural macros for deriving validation implementations on structs."
@@ -13,7 +13,7 @@ categories = ["development-tools"]
 syn = { version = "2.0", features = ["full"] }
 quote = "1.0"
 proc-macro2 = "1.0"
-struct-validation-core = { path = "../struct-validation-core", version = "0.1.0" }
+struct-validation-core = { path = "../struct-validation-core", version = "0.1.1" }
 
 [lib]
 proc-macro = true

@@ -1,6 +1,6 @@
 [package]
 name = "struct-validation"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Matthew Lyon <matthew@lyon.systems>"]
 edition = "2021"
 description = "A simple trait and derive to validate structs and return a list of errors."
@@ -14,8 +14,8 @@ name = "struct_validation"
 path = "src/lib.rs"
 
 [dependencies]
-struct-validation-core = { path = "./struct-validation-core", version = "0.1.0" }
-struct-validation-derive = { path = "./struct-validation-derive", version = "0.1.0" }
+struct-validation-core = { path = "./struct-validation-core", version = "0.1.1" }
+struct-validation-derive = { path = "./struct-validation-derive", version = "0.1.1" }
 
 [workspace]
 

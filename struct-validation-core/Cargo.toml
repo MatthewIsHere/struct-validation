@@ -1,6 +1,6 @@
 [package]
 name = "struct-validation-core"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Matthew Lyon <matthew@lyon.systems>"]
 edition = "2021"
 description = "Core functionality for struct validation, including traits and error types."
