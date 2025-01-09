@@ -1,13 +1,18 @@
+use miette::Diagnostic;
+use thiserror::Error;
+
 /// Represents an error that occurs during validation of a struct's field.
 ///
 /// Each `ValidationError` contains the name of the field that failed validation
 /// and an associated error message explaining the reason for the failure.
-#[derive(Debug)]
+
+#[derive(Debug, Error, Diagnostic)]
+#[error("field {field}: {message}")]
+#[diagnostic(
+    help("Ensure '{field}' is valid.")
+)]
 pub struct ValidationError {
-    /// The name of the field that failed validation.
     pub field: String,
-    
-    /// A message describing the validation error.
     pub message: String,
 }
 

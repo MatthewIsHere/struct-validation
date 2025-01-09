@@ -1,6 +1,6 @@
 [package]
 name = "struct-validation-core"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Matthew Lyon <matthew@lyon.systems>"]
 edition = "2021"
 description = "Core functionality for struct validation, including traits and error types."
@@ -8,3 +8,7 @@ repository = "https://github.com/MatthewIsHere/struct-validation"
 license = "MIT"
 keywords = ["validation", "core", "struct"]
 categories = ["development-tools"]
+
+[dependencies]
+miette = "7.4.0"
+thiserror = "2.0.10"
